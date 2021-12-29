@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+::before, ::after{
+    box-sizing: border-box;
+}
 body {
     background-color: #FFF0E5;
 }
@@ -36,7 +38,6 @@ header {
 .image-logo img{
     height: 28px;
     width: auto;
-    position: relative;
     align-content: center;
     display: flex;
 }
@@ -44,6 +45,9 @@ header {
     display: flex;
     height: 100%;
     align-items: center;
+    margin-left: 0;
+    margin-right: 0.5rem;
+    width: 138px;
 }
 .header-a-a-a-a{
     height: 100%;
@@ -53,6 +57,10 @@ header {
 .header-a-a-a-a-a{
     width: 50%;
     height: 100%;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    
 }
 .header-a-a-a-a-b{
     width: 50%;
