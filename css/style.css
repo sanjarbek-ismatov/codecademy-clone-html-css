@@ -34,15 +34,16 @@ header {
     margin: auto;
 }
 .image-logo img{
-    height: 67px;
+    height: 28px;
     width: auto;
     position: relative;
     align-content: center;
     display: flex;
-    bottom: 5px;
 }
 .image-logo{
+    display: flex;
     height: 100%;
+    align-items: center;
 }
 .header-a-a-a-a{
     height: 100%;
