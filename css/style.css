@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
 
 header {
     height: 80px;
+    display: flex;
 }
 
 .header-a {
@@ -18,5 +20,40 @@ header {
 }
 .header-a-c{
     width: 100%;
+    height: 100%;
+}
+.header-a-a{
+    height: 100%;
+    width: 100%;
+}
+.header-a-a-a{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    width: 1440px;
+    height: 55px;
+    margin: auto;
+}
+.image-logo img{
+    height: 67px;
+    width: auto;
+    position: relative;
+    align-content: center;
+    display: flex;
+    bottom: 5px;
+}
+.image-logo{
+    height: 100%;
+}
+.header-a-a-a-a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.header-a-a-a-a-a{
+    width: 50%;
+    height: 100%;
+}
+.header-a-a-a-a-b{
+    width: 50%;
     height: 100%;
 }
