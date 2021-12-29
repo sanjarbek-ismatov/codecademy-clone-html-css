@@ -8,6 +8,7 @@
 }
 body {
     background-color: #FFF0E5;
+    font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
 header {
@@ -68,7 +69,15 @@ header {
 }
 .menu-a, .menu-b, menu-c, menu-d, menu-e{
     margin: 0 0.5rem;
+    font-weight: 400;
+    display: flex;
 }
 .menu-c{
     margin-left: 1rem;
+}
+svg{
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
