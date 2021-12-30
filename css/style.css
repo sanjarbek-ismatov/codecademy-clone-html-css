@@ -98,17 +98,32 @@ svg {
 }
 
 .header-a-a-a-a-b {
+    display: flex;
     justify-content: flex-end;
 }
-.search-icon{
+
+.search-icon {
     height: calc(100% - 17px);
     width: calc(100% - 17px);
 }
-.search{
+
+.search {
     height: 100%;
     width: 40px;
-    
+    margin-right: 20px;
 }
-.header-a-a-a-a-b{
+
+.header-a-a-a-a-b {
     width: 591px;
+}
+
+.login {
+    display: flex;
+    padding: 15px 15px;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
 }
